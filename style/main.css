@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --Midnight: #145DA0;
+    --Dark: #0C2D48;
+    --Blue: #2E8BC0;
+    --Baby: #B1D4E0;
+    --Baby2: #8ba6af;
+    --Ivory: #EEEDE7;
+    --Misty: #F8FAFD;
+    --Gray: #868B8E;
+    --Mustard: #FAD02C;
+    --Pastel: #FFD898;
+
+    background: var(--Ivory);
+}
+
+.header{
+    background: var(--Midnight);
+}
+
+.logo{
+    border-radius: 5px;
+    width: 120px;
+}
+
+nav{
+    height: 100%;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: var(--Pastel);
+}
+
+.nav-link.login{
+    color: var(--Dark);
+    background-color: var(--Mustard);
+}
+
+.nav-link.login:hover{
+    background-color: var(--Pastel);
+}
+
+.content{
+    background: var(--Misty);
+}
+
+.footer{
+    background: var(--Gray);
+}
